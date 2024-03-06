@@ -1,0 +1,66 @@
+div.postpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+div.postpage div.img{
+    max-height: 200px;
+    overflow: hidden;
+    display: flex;
+}
+div.postpage div.img img{
+    object-fit: contain;
+    object-position: center center;
+    width: 100%;
+}
+div.postpage h1{
+    margin: 20px 0 10px;
+    text-align: center;
+}
+div.postpage time{
+    text-align: center;
+    display: block;
+    color: gray;
+    font-size: 0.7rem;
+}
+div.postpage div.author{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+div.postpage div.content {
+    line-height: 1.6rem;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+
+div.postpage div.content p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+div.postpage a.edit-btn{
+    display: inline-flex;
+    align-items: center;
+    background-color: #FF4168;
+    color: white;
+    gap: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+div.postpage div.edit-row{
+    display: flex;
+    justify-content: center;
+}
+.edit-row svg{
+    height: 17px;
+    margin: 3px;
+}
